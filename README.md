@@ -1,27 +1,24 @@
-### MVC Template
+# New Project
 
-Get the depdencies installed:
+> ✨ Bootstrapped with Create Snowpack App (CSA).
 
-1. nvm use
-2. npm isntall
+## Available Scripts
 
-Get the app up and running on port 8080, assuming the depdencies are installed:
+### npm start
 
-1. cd /src
-2. npm run build
-3. npm run http
+Runs the app in the development mode.
+Open http://localhost:8080 to view it in the browser.
 
-Get the tests up and running, assuming the depdencies are installed:
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-1. cd /src
-2. npm run test
+### npm run build
 
-Get started with UUID:
+Builds a static copy of your site to the `build/` folder.
+Your app is ready to be deployed!
 
-```javascript
-import { v4 as uuidv4 } from 'uuid';
+**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
 
-const uuid = uuidv4();
+### Q: What about Eject?
 
-console.log(uuid);
-```
+No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
